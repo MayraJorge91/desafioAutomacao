@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-11-25T14:45:23.547246" rpa="false" schemaversion="5">
+<suite id="s1" name="Primeiro Teste" source="C:\Users\mayjo\dasafio automação\curso-robot\primeiro_teste.robot">
+<test id="s1-t1" name="Abrir navegador e acessar o site bugbank" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-25T14:45:23.959570" level="INFO">Opening browser 'Chrome' to base url 'https://bugbank.netlify.app/'.</msg>
+<arg>url=https://bugbank.netlify.app/</arg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-25T14:45:23.959309" elapsed="4.617019"/>
+</kw>
+<status status="PASS" start="2024-11-25T14:45:23.958191" elapsed="4.642534"/>
+</test>
+<test id="s1-t2" name="REGISTRAR" line="8">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-25T14:45:28.747198" level="INFO">Clicking element 'class:button--child'.</msg>
+<msg time="2024-11-25T14:45:28.975830" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-11-25T14:45:28.976140" level="FAIL">Element with locator 'class:button--child' not found.</msg>
+<arg>class:button--child</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-11-25T14:45:28.746294" elapsed="0.237183">Element with locator 'class:button--child' not found.</status>
+</kw>
+<status status="FAIL" start="2024-11-25T14:45:28.701672" elapsed="0.282372">Element with locator 'class:button--child' not found.</status>
+</test>
+<status status="FAIL" start="2024-11-25T14:45:23.550443" elapsed="5.434942"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Primeiro Teste">Primeiro Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
